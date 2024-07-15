@@ -1,6 +1,6 @@
 name: slideflow
 channels:
-  - pytorch
+  - https://conda.anaconda.org/pytorch
   - conda-forge
   - defaults
 dependencies:
