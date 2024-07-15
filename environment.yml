@@ -1,8 +1,10 @@
 name: slideflow
 channels:
-  - https://conda.anaconda.org/pytorch
+  - https://conda.anaconda.org/pytorch/osx-arm64
   - https://conda.anaconda.org/conda-forge/osx-arm64
-  - defaults
+  - https://repo.anaconda.com/pkgs/main/osx-arm64
+  - https://repo.anaconda.com/pkgs/r/osx-arm64
+  - https://conda.anaconda.org/pytorch
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
